@@ -4,8 +4,13 @@ import Hero from "./components/hero/heroSection";
 export default function Home() {
   return (
     <div>
-      <NavBar />
-      <Hero />
+      <section>
+        <NavBar />
+      </section>
+
+      <section>
+        <Hero />
+      </section>
     </div>
   );
 }
