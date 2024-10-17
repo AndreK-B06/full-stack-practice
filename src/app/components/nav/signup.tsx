@@ -1,4 +1,4 @@
-function signUp() {
+export function signUp() {
   return (
     <>
       <form onSubmit={handleSubmit}>
