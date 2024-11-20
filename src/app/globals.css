@@ -16,6 +16,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+button {
+  transition: 1s;
+  color: var(--text-color);
+}
+button:hover {
+  transition: 2s;
+  color: var(--btn-colors);
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
