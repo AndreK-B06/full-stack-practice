@@ -17,7 +17,6 @@ aside {
   width: 15rem;
   height: 18rem;
   border-radius: 2rem 2rem 10rem 10rem;
-  backdrop-filter: blur(2px);
 }
 h3 {
   margin: 1rem 0rem 3rem 0rem;
