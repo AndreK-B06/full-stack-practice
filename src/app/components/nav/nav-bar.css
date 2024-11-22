@@ -1,10 +1,7 @@
-.flex-row {
-  display: flex;
-  flex-direction: row;
-}
 .navBar {
   display: flex;
   flex-direction: row;
+  position: fixed;
   justify-content: space-around;
   align-items: center;
   height: 50px;
