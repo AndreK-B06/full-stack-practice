@@ -1,5 +1,6 @@
 import NavBar from "./components/nav/nav-bar";
 import Hero from "./components/hero/heroSection";
+import Footer from "./components/footer/footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
 
       <section>
         <Hero />
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
   );
