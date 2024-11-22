@@ -32,6 +32,12 @@ button:hover {
   transition: 2s;
   color: var(--btn-colors);
 }
+.news {
+  background-color: var(--shader);
+}
+aside {
+  background-color: var(--background-color);
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
