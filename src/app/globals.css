@@ -4,10 +4,15 @@
 
 :root {
   --background-color: #252323;
+  --shader: #aea6a622;
   --text-color: #f0f8ff;
   --btn-colors: #21cefd;
 }
-
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 body {
   color: var(--text-color);
   background: var(--background-color);
@@ -16,7 +21,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+.navBar {
+  background-color: var(--shader);
+}
 button {
   transition: 1s;
   color: var(--text-color);
