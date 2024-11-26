@@ -1,6 +1,12 @@
 import "./nav-bar.css";
+// import "../news.tsx";
 
 export default function navBar() {
+  // document.getElementsByClassName("news").scrollIntoView({
+  //   behavior: "smooth",
+  //   block: "center",
+  // });
+
   return (
     <>
       <nav className="navBar">
